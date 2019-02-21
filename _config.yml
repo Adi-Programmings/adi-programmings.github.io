@@ -1,0 +1,36 @@
+title: Adi Programming
+email: adi.programmings@gmail.com
+description: >-
+  Hi, my name is Cahyadi Triyansyah
+baseurl: ""
+url: ""
+category_dir: "categories"
+permalink: "/:year/:i_month/:i_day/:title/"
+twitter_username: SunDi3yansyah
+github_username:  SunDi3yansyah
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+
+exclude:
+  - .idea
+  - .vscode
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
